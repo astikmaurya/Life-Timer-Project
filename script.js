@@ -84,7 +84,7 @@ const setDOB = () => {
       afterTextEl.classList.add("hide");
     }
   } else {
-    alert("Invalid Date of Birth");
+    alert("Please Enter the Valid - Date of Birth");
   }
 };
 setDOB();
