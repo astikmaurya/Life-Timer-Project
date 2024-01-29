@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f0ddf55e2b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="background">
+      <div id="beforeText" class="container">
+        <h1>Kindly Enter Your Date Of Birth, Using Gear Icon Below</h1>
+      </div>
+      <div id="afterText" class="container">
+        <div class="center">
+          <h1>Total Time You Spent On The Earth, Till Now</h1>
+          <div class="time-container">
+            <h2 class="time">
+              <div id="year">0</div>
+              Years
+            </h2>
+            <h2 class="time">
+              <div id="month">0</div>
+              Months
+            </h2>
+            <h2 class="time">
+              <div id="date">0</div>
+              Days
+            </h2>
+            <h2 class="time">
+              <div id="hour">0</div>
+              Hours
+            </h2>
+            <h2 class="time">
+              <div id="minute">0</div>
+              Minutes
+            </h2>
+            <h2 class="time">
+              <div id="second">0</div>
+              Seconds
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="setting">
+        <i id="gearIcon" class="fa fa-gear fa-spin"></i>
+        <div id="settingContent" class="setting-content hide">
+          <input type="date" id="dobInput" />
+          <button id="dobBtn">Add DOB</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
