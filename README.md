@@ -25,7 +25,7 @@ Have you ever wondered exactly how many years, months, days, hours, minutes, and
 
 ## Demo
 
-Check out the <a href='https://astikmaurya.github.io/Life-Timer-Project/'>Demo Link</a>to see it in action.
+Check out the <a href='https://astikmaurya.github.io/Life-Timer-Project/' target="_blank">Demo Link</a>to see it in action.
 
 ## Getting Started
 
